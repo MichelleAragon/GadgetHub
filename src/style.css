@@ -1,0 +1,371 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    height: 10vh;
+}
+
+.div-nav-item {
+    
+    width: 50%;
+
+}
+
+
+.ul-container {
+    display: flex;    
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+.div-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding:0%;
+    object-fit: cover;
+
+}
+
+.buscar-comprar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+a:link, a:visited  { 
+    text-decoration: none; 
+    color: #BBB6B6;
+} 
+
+a:hover {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+a.active {
+    color: #5be0e6;
+  }
+
+button {
+        background-color: transparent;
+        border: none;
+        color: #F3F1F1;
+
+}
+
+.input-search {
+    border: none;
+    background: #F3F1F1;
+    width: 100px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+.input-search:focus {
+    outline: none;
+    color: #252424;
+    background-color: #F3F1F1;
+}
+
+.div-search {
+    background-color: #F3F1F1;
+    border-radius: 25px;
+    width: 270px;
+}
+
+.button-search {
+    padding-left: 12px;
+}
+
+.icon-search {
+    background-color: transparent;
+    color: #000000;
+} 
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F3F1F1;
+    row-gap: 10px;
+    height: 76vh;
+    margin-top: 4vh;
+
+}
+
+
+.h1-title {
+    margin-top: 26px;
+    color: #F3F1F1;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.div-img-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.img-home {
+    object-fit: contain;
+    width:100%;
+    height:100%;
+
+}
+
+
+
+.sectionMain {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    row-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.articleCardLeft, .articleCardCenter, .articleCardRight {
+    /* margin-top: 40px; */
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+.imgCard {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.divImgTex {
+    background-color: #f54895;
+    color: #F3F1F1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    padding: 4px;
+    padding-left: 8px;
+    height: 20%;
+    justify-content: center;
+    border-radius: 4px;
+
+}
+
+.pMain {
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.pLearnMore {
+    font-size: 12px;
+    color: #5be0e6;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.imgTextH4 {
+    background-color: transparent;
+}
+
+.footer-container {
+    color: #BBB6B6;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    /* margin-top: auto; */
+    position: fixed;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    height: 20px;
+
+
+}
+
+.main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-container a {
+    color: #f54895;
+    
+}
+
+.contactUsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    height: 50vh; 
+    width: 70vw; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleContactUs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleGetInTouch { 
+    width: 300px;
+    height: 100%;
+    margin: 10px;
+}
+
+.divContact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+
+.divGetInTouch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGetInTouch {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 80%;
+}
+
+
+
+.divIframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+form button {
+    background-color: #f54895; 
+    width: 30%;    
+    height: 30px;
+    color: #F3F1F1;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #f54895;
+    border-radius: 4px;
+
+}
+
+form input {
+
+    border: 1px solid #BBB6B6;
+    height: 26px;
+    border-radius: 4px;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px 1px #C1C1C1;
+}
+
+input:focus {
+    outline: none;
+    height: 30px;
+    color: #F3F1F1;
+}
+
+.formTextarea {
+    border: 1px solid #BBB6B6;
+    height: 100px;
+    border-radius: 4px;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px 1px #C1C1C1;
+}
+
+.formTextarea:focus {
+    outline: none;
+    color: #F3F1F1
+}
+
+.divBase {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    color: #F3F1F1;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.h3ContactUs, .h3GetInTouch {
+    color: #F3F1F1;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.labelFormGetInTouch {
+    color: #F3F1F1;
+    font-size: 14px;
+    text-align: center;
+}
+
+.imgLogoWhatsapp {
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    box-shadow: 1px 1px 1px 1px #f54895;
+}
+
+.asideWhatsapp {
+    height: 100px;
+    width: 100vw;
+}
+
+.bottonWhatsapp {
+    position: fixed;
+    right: 4%;
+    bottom: 10%;
+}
